@@ -1,3 +1,5 @@
+@import url("./normalize.css");
+
 :root {
   --white-color: hsl(0, 0%, 100%);
   --light-gray-color: hsl(212, 45%, 89%);
@@ -25,6 +27,7 @@ body {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: var(--body-font-size);
+  line-height: normal;
 
   color: var(--grayish-blue-color);
 }
